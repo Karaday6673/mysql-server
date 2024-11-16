@@ -1,0 +1,54 @@
+2024-11-08 11:08:17 30759 mysqld_safe Starting mysqld daemon with databases from /Applications/XAMPP/xamppfiles/var/mysql
+2024-11-08 11:08:23 0 [Note] Starting MariaDB 10.4.28-MariaDB source revision c8f2e9a5c0ac5905f28b050b7df5a9ffd914b7e7 as process 30919
+2024-11-08 11:08:22 0 [Note] Using unique option prefix 'key_buffer' is error-prone and can break in the future. Please use the full name 'key_buffer_size' instead.
+2024-11-08 11:08:23 0 [Warning] Setting lower_case_table_names=2 because file system for /Applications/XAMPP/xamppfiles/var/mysql/ is case insensitive
+2024-11-08 11:08:25 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2024-11-08 11:08:25 0 [Note] InnoDB: Uses event mutexes
+2024-11-08 11:08:25 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2024-11-08 11:08:25 0 [Note] InnoDB: Number of pools: 1
+2024-11-08 11:08:25 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-11-08 11:08:25 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-11-08 11:08:25 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-11-08 11:08:29 0 [Note] InnoDB: Upgrading redo log: 2*5242880 bytes; LSN=1762733
+2024-11-08 11:08:30 0 [Note] InnoDB: Starting to delete and rewrite log files.
+2024-11-08 11:08:30 0 [Note] InnoDB: Setting log file /Applications/XAMPP/xamppfiles/var/mysql/ib_logfile101 size to 5242880 bytes
+2024-11-08 11:08:30 0 [Note] InnoDB: Setting log file /Applications/XAMPP/xamppfiles/var/mysql/ib_logfile1 size to 5242880 bytes
+2024-11-08 11:08:31 0 [Note] InnoDB: Renaming log file /Applications/XAMPP/xamppfiles/var/mysql/ib_logfile101 to /Applications/XAMPP/xamppfiles/var/mysql/ib_logfile0
+2024-11-08 11:08:31 0 [Note] InnoDB: New log files created, LSN=1762733
+2024-11-08 11:08:35 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-11-08 11:08:36 0 [Note] InnoDB: Creating sys_virtual system tables.
+2024-11-08 11:08:37 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-11-08 11:08:37 0 [Note] InnoDB: Setting file '/Applications/XAMPP/xamppfiles/var/mysql/ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-11-08 11:08:37 0 [Note] InnoDB: File '/Applications/XAMPP/xamppfiles/var/mysql/ibtmp1' size is now 12 MB.
+2024-11-08 11:08:37 0 [Note] InnoDB: Waiting for purge to start
+2024-11-08 11:08:37 0 [Note] InnoDB: Waiting for purge to start
+2024-11-08 11:08:37 0 [Note] InnoDB: Waiting for purge to start
+2024-11-08 11:08:37 0 [Note] InnoDB: Waiting for purge to start
+2024-11-08 11:08:37 0 [Note] InnoDB: Waiting for purge to start
+2024-11-08 11:08:37 0 [Note] InnoDB: Waiting for purge to start
+2024-11-08 11:08:37 0 [Note] InnoDB: Waiting for purge to start
+2024-11-08 11:08:37 0 [Note] InnoDB: Waiting for purge to start
+2024-11-08 11:08:38 0 [Note] InnoDB: Waiting for purge to start
+2024-11-08 11:08:38 0 [Note] InnoDB: 10.4.28 started; log sequence number 1762733; transaction id 2368
+2024-11-08 11:08:38 0 [Note] InnoDB: Loading buffer pool(s) from /Applications/XAMPP/xamppfiles/var/mysql/ib_buffer_pool
+2024-11-08 11:08:38 0 [Note] InnoDB: Cannot open '/Applications/XAMPP/xamppfiles/var/mysql/ib_buffer_pool' for reading: No such file or directory
+2024-11-08 11:08:39 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-11-08 11:08:41 0 [Note] Server socket created on IP: '::'.
+2024-11-08 11:08:45 0 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH','EMPTY_STRING_IS_NULL','SIMULTANEOUS_ASSIGNMENT'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALU
+2024-11-08 11:08:45 0 [ERROR] mysqld: Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2024-11-08 11:08:45 6 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-11-08 11:08:46 6 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-11-08 11:08:48 0 [Note] Reading of all Master_info entries succeeded
+2024-11-08 11:08:48 0 [Note] Added new Master_info '' to hash table
+2024-11-08 11:08:48 0 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: ready for connections.
+Version: '10.4.28-MariaDB'  socket: '/Applications/XAMPP/xamppfiles/var/mysql/mysql.sock'  port: 3306  Source distribution
+2024-11-09  8:52:56 0 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld (initiated by: unknown): Normal shutdown
+2024-11-09  8:52:56 0 [Note] InnoDB: FTS optimize thread exiting.
+2024-11-09  8:52:56 0 [Note] InnoDB: Starting shutdown...
+2024-11-09  8:52:56 0 [Note] InnoDB: Dumping buffer pool(s) to /Applications/XAMPP/xamppfiles/var/mysql/ib_buffer_pool
+2024-11-09  8:52:56 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
+2024-11-09  8:52:56 0 [Note] InnoDB: Buffer pool(s) dump completed at 241109  8:52:56
+2024-11-09  8:52:57 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-11-09  8:52:57 0 [Note] InnoDB: Shutdown completed; log sequence number 1764275; transaction id 2369
+2024-11-09  8:52:58 0 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: Shutdown complete
+
